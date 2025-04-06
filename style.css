@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f89898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+    background: #7f6c6c9b;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #44475a;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.input::placeholder {
+    color: #b5b3b3;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.show {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background: #a6caff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.459);
+}
+
+.current {
+    width: 100%;
+    background: #6272a4;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 8px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.log {
+    width: 100%;
+    height: 200px;
+    background: #44475a;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.log p {
+    padding: 8px;
+    margin: 5px 0;
+    background: #515570;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.log p:hover {
+    background: #6272a4;
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.desc {
+    color: #b5b3b3;
+    font-size: 14px;
+    text-align: center;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding-right: 40px; /* Space for logo */
+}
+
+.search-logo {
+    position: absolute;
+    right: 10px; /* Position at the right */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust size */
+    height: 20px;
+    cursor: pointer;
+}
+.p{
+    margin-right: -120px;
+}
